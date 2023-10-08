@@ -1,3 +1,3 @@
 function solution(rny_string) {
-    return rny_string.replace(/m/gi,'rn')
+    return rny_string.replaceAll('m','rn')
 }
